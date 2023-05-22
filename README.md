@@ -28,7 +28,7 @@ gcc client.c -o client
 (Пример: ./client 127.0.0.2 8080 1)
 
 Тестирование:
---------------------------------------------------------------
+_______________________________________________________
 user@LAPTOP-OC5FIHNI:~/HW_OS$ ./client 127.0.0.2 8080 1
 Enter book details (identifier, shelf, book number):
 Book 1:
@@ -42,7 +42,7 @@ Shelf: 5
 Book Number: 5
 Enter more books? (y/n): n
 Subcatalog sent to server
---------------------------------------------------------------
+_______________________________________________________
 user@LAPTOP-OC5FIHNI:~/HW_OS$ ./client 127.0.0.2 8080 2
 Enter book details (identifier, shelf, book number):
 Book 1:
@@ -56,7 +56,7 @@ Shelf: 1
 Book Number: 3
 Enter more books? (y/n): n
 Subcatalog sent to server
---------------------------------------------------------------
+_______________________________________________________
 user@LAPTOP-OC5FIHNI:~/HW_OS$ ./server 127.0.0.2 8080 2
 Server started. Waiting for connections...
 New connection accepted
@@ -68,4 +68,4 @@ Identifier: ZZZ, Row: 1, Shelf: 1, Book Number: 1
 Identifier: aaa, Row: 1, Shelf: 5, Book Number: 5
 Identifier: qwe, Row: 2, Shelf: 1, Book Number: 2
 Identifier: A, Row: 2, Shelf: 1, Book Number: 3
---------------------------------------------------------------
+_______________________________________________________
